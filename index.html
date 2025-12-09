@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Escape the Grinch</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      background: black;
+      font-family: sans-serif;
+    }
+
+    #ui {
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      color: white;
+      font-size: 20px;
+      z-index: 10;
+    }
+
+    #start {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.9);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 32px;
+      cursor: pointer;
+      z-index: 20;
+    }
+  </style>
+</head>
+<body>
+
+<div id="ui">🎁 Items: 0</div>
+<div id="start">CLICK TO START</div>
+
+<script type="module" src="./main.js"></script>
+</body>
+</html>
